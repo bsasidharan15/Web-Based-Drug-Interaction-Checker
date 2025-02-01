@@ -2,8 +2,6 @@
 
 A web-based tool to check interactions between up to five drugs using a preprocessed CSV file of drug interactions. The tool is built with **Gradio** and provides an easy-to-use interface for users to input drug names and get interaction results.
 
----
-
 ## 🚀 Features
 
 ✅ **Fast Lookups**: Preprocesses a CSV file of drug interactions into a dictionary for quick searches.  
@@ -12,8 +10,6 @@ A web-based tool to check interactions between up to five drugs using a preproce
 ✅ **CSV-Based Data**: Uses a CSV file containing drug interaction data scraped from [Drugs.com](https://www.drugs.com).  
 ✅ **Efficient Search Algorithm**: Uses sorted drug pairs as dictionary keys to avoid order issues.
 
----
-
 ## 🛠 How It Works
 
 1. **Scraping Drug Interaction Data**: The drug interaction data was scraped from [Drugs.com](https://www.drugs.com) and stored in a CSV file (`merged_drug_interactions.csv`).
@@ -21,8 +17,6 @@ A web-based tool to check interactions between up to five drugs using a preproce
 3. **Input**: Users enter up to five drug names in the Gradio interface.
 4. **Interaction Check**: The tool checks all possible pairs among the entered drugs and retrieves their interaction details from the preprocessed dictionary.
 5. **Output**: The results are displayed in an easy-to-read format, including interaction levels and descriptions.
-
----
 
 ## 🔧 Installation
 
@@ -39,8 +33,6 @@ A web-based tool to check interactions between up to five drugs using a preproce
 
 3. Place your CSV file containing drug interactions in the project directory and update the `CSV_FILE_PATH` variable in `main.py` with the correct path.
 
----
-
 ## ▶️ Usage
 
 1. Run the `main.py` script:
@@ -53,8 +45,6 @@ A web-based tool to check interactions between up to five drugs using a preproce
 3. Enter up to five drug names in the input fields and click **"Check Interactions"**.
 
 4. View the interaction results in the output field.
-
----
 
 ## 📌 Example
 
@@ -74,8 +64,6 @@ Metformin vs Amoxicillin
 Interaction Level: Minor | Interactions: May slightly increase the risk of hypoglycemia.
 ```
 
----
-
 ## 📂 Code Structure
 
 ### `main.py` Explanation
@@ -89,15 +77,11 @@ Interaction Level: Minor | Interactions: May slightly increase the risk of hypog
 - **`main.py`** → The main script containing the Gradio interface and interaction-checking logic.
 - **CSV File** → A preprocessed CSV file containing drug interaction data (e.g., `merged_drug_interactions.csv`).
 
----
-
 ## 📜 Dependencies
 
 - Python 3.7+
 - Gradio
 - Pandas
-
----
 
 ## 🤝 Contributing
 
@@ -107,13 +91,9 @@ Interaction Level: Minor | Interactions: May slightly increase the risk of hypog
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
----
-
 ## 📝 License
 
 This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🎖 Acknowledgments
 
